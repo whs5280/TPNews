@@ -1,0 +1,23 @@
+[ 2018-07-15T09:08:07+08:00 ] 127.0.0.1 /htdocs/TPNews/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:1.1557s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1   [ RunTime:0.1330s ]
+SQL: SELECT `news_id`,`news_title`,`news_author`,`news_content`,`news_date` FROM `think_news` ORDER BY news_id desc LIMIT 0,4   [ RunTime:0.0201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.274957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.275047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019675s ]
+

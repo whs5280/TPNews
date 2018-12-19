@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>修改数据</title>
+    <style type="text/css">
+        table{
+            font-size: 16px;;
+        }
+    </style>
+</head>
+<body>
+<!-- 导航条 -->
+<include file="public:nav" />
+
+<div class="container">
+    <h4 align="center" style="color: #906c55;">修改新闻信息</h4>
+<form name="form1" method="post" action="__URL__/modify">
+<volist name="list" id="vo">
+  <table width="643" border="0" align="center" cellpadding="0" cellspacing="0" class="table">
+    <tr>
+      <td width="154" height="26" align="right">标题名称：</td>
+      <td width="489" height="26"><input name="news_title" type="text" id="news_title" size="40" value="{$vo.news_title}"></td>
+    </tr>
+    <tr>
+      <td height="26" align="right">作者：</td>
+      <td height="26"><input name="news_author" type="text" id="news_author" value="{$vo.news_author}"></td>
+    </tr>
+    <tr>
+      <td height="26" align="right">内容：</td>
+      <td height="26"><textarea name="news_content" cols="60" rows="8" id="news_content">{$vo.news_content}</textarea></td>
+    </tr>
+    <tr>
+      <td height="26" align="right">&nbsp;</td>
+      <td height="26"><input type="submit" name="Submit" value="修改信息">
+      <input type="button" name="Submit2" value="返回新闻" onClick="location.href='__URL__/index'">
+      <input name="news_id" type="hidden" id="news_id" value="{$vo.news_id}"></td>
+    </tr>
+  </table>
+  </volist>
+</form>
+</div>
+</body>
+</html>

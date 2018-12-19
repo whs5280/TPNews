@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>华软大学生留言板</title>
+    <link href="__PUBLIC__/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div class="container">
+    <!-- header -->
+    <div class="row">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="{:U('New/index')}">华软新闻</a>
+                </div>
+                <div class="navbar-right">
+                    <a class="navbar-brand" href="{:U('Login/login')}" style="color: #906c55;font-size: 15px;">新闻后台管理入口</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <hr />
+    <div class="row">
+        <div class="col-md-8">
+            <volist name="list" id="vo" >
+                <div class="panel panel-default" id="panel-{$vo.news_id}">
+                    <div class="panel-body">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="__PUBLIC__/image/1.gif" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <a href="__URL__/news_list/news_id/{$vo.news_id}" target="_blank" style="font-size: 16px;text-decoration: none;">
+                                    {$vo.news_title}
+                                </a>
+                                <br><br>
+                                <div>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{$vo.news_content|substr=0,360}...
+                                </div>
+                                <blockquote class="blockquote-reverse small" style="margin-bottom: -10px;font-size: 14px;">
+                                    <ul class="list-inline text-muted">
+
+                                        <li>by</li>
+                                        <li>{$vo.news_author}</li>
+                                        <li>{$vo.news_date}</li>
+
+                                    </ul>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </volist>
+
+            <div style="font-size: 16px;margin-left: 40%;">{$page}</div>
+        </div>
+
+
+        <div class="col-md-4">
+            <nav>
+                <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation" class="active"><a data-toggle="modal" data-target="#myModal">热门新闻</a></li>
+                    <!-- 热门新闻 -->
+                    <div>
+                        <!-- 热门新闻 -->
+                        <include file="public:hot" />
+                    </div>
+                    <div style="height: 50px;"></div>
+                    <li role="presentation" class="active"><a target="_blank" style="cursor: pointer;">最新新闻</a></li>
+                    <!-- 最新新闻 -->
+                    <div>
+                        <!-- 最新新闻 -->
+                        <include file="public:later" />
+                    </div>
+                    <!--<li role="presentation"><a href="#">...</a></li>-->
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <br><br><br>
+</div>
+
+</body>
+
+</html>
+</body>
+</html>

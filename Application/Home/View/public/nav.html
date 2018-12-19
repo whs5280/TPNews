@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>导航条</title>
+
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.css" />
+    <style type="text/css">
+        .drownmenu{
+            height:50px;
+            line-height:50px;
+            position: relative;
+            z-index: 999;
+            display: inline-block;
+            font-size: 16px;
+            text-align: center;
+
+        }
+        .drownmenu a{
+            color:white;
+            text-decoration: none;
+        }
+        .drowncontent{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            z-index: 9999;
+            width: 150px;
+            margin-left: 1px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+        .drowncontent img {
+            z-index: 9999;
+        }
+        .drowncontent a {
+            color: black;
+            padding: 6px 8px;
+            text-decoration: none;
+            display: block;
+        }
+        .drowncontent a:hover {
+            background-color: #f1f1f1
+        }
+        /* 移动到时显示 */
+        .drownmenu:hover .drowncontent {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+<!-- 导航条 -->
+<nav class="navbar navbar-default" role="navigation" id="bignav">
+    <div class="container">
+
+        <div class="navbar-header">
+            <a href="{:U('Home/Index/index')}" class="navbar-brand" style="color: #906c55;">新闻信息管理系统</a>
+        </div>
+
+        <!-- search -->
+        <div style="height: 15px;margin-top: 7px;margin-left: 450px;">
+            <form method="post" action="{:U('Index/result')}">
+                <input type="text" class="form-control" style="width: 300px;display: inline-block;" name="search" placeholder="输入查找的标题">
+                <button class="btn btn-default" style="margin-top: 0px;display: inline-block;" type="submit">
+                    Go!
+                </button>
+            </form>
+        </div>
+
+
+        <div style="margin-top: -20px;">
+            <div class="nav navbar-nav navbar-right">
+                <div>
+                    <div class="nav navbar-nav navbar-right drownmenu"><a href="" style="color: #906c55;">个人中心</a>
+                        <div class="drowncontent">
+
+                            <div style="text-align: left;">
+							<span>
+							<input type="file" name="uploadImage" style="position:absolute;opacity:0;" id="inp1" onchange="imgUpload()">
+							<img style="width: 50px;height: 50px;"src="__PUBLIC__/image/01.png"/>
+                            </span>
+                                    <span>{$Think.session.user.name}admin</span>
+                            </div>
+                            <div><a href="{:U('Login/logout')}">退出</a></div>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</nav>
+</body>
+</html>

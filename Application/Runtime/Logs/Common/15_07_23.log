@@ -1,0 +1,210 @@
+[ 2015-07-23T12:06:38+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T12:06:47+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T13:21:54+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T13:21:56+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify/random/0.4527549676131457
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T13:27:04+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T13:27:07+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify/random/0.20209033228456974
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T13:27:19+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify/bgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T13:27:26+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T13:27:27+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify/random/0.5167456443887204
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T13:43:52+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T13:46:05+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T13:49:56+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T14:14:01+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T14:42:11+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T14:42:12+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify/random/0.9567226332146674
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T14:42:45+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T14:56:12+08:00 ] 127.0.0.1 /thinkphp_news/index.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-23T15:15:29+08:00 ] 127.0.0.1 /thinkphp_news/index.php/Index/verify/random/0.23335420270450413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:15:31+08:00 ] 127.0.0.1 /thinkphp_news/index.php/Index/verify/random/0.389914482133463
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:15:52+08:00 ] 127.0.0.1 /thinkphp_news/index.php/Index/verify_c/random/0.010053341742604971
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:15:53+08:00 ] 127.0.0.1 /thinkphp_news/index.php/Index/verify_c/random/0.0820092975627631
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:15:54+08:00 ] 127.0.0.1 /thinkphp_news/index.php/Index/verify_c/random/0.47596907638944685
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:16:06+08:00 ] 127.0.0.1 /thinkphp_news/index.php/Index/verify_c/0.7485687776934355
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:16:07+08:00 ] 127.0.0.1 /thinkphp_news/index.php/Index/verify_c/0.7808894189074636
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:38:58+08:00 ] 127.0.0.1 /thinkphp_news/index.php/Index/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:38:59+08:00 ] 127.0.0.1 /thinkphp_news/index.php/Index/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:39:00+08:00 ] 127.0.0.1 /thinkphp_news/index.php/Index/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:40:09+08:00 ] 127.0.0.1 /thinkphp_news/index.php/index/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:40:10+08:00 ] 127.0.0.1 /thinkphp_news/index.php/index/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:40:11+08:00 ] 127.0.0.1 /thinkphp_news/index.php/index/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:40:12+08:00 ] 127.0.0.1 /thinkphp_news/index.php/index/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:40:12+08:00 ] 127.0.0.1 /thinkphp_news/index.php/index/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:40:12+08:00 ] 127.0.0.1 /thinkphp_news/index.php/index/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:41:27+08:00 ] 127.0.0.1 /thinkphp_news/index.php/index/verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-23T15:41:29+08:00 ] 127.0.0.1 /thinkphp_news/index.php/index/verify_c/random/0.7976154813077301
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+

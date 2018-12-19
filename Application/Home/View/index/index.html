@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>新闻系统</title>
+    <link href="__PUBLIC__/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+        table{
+            text-align: center;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 导航条 -->
+    <include file="public:nav" />
+
+    <div class="container">
+    <table align="center" cellpadding="0" cellspacing="0" class="table table-bordered">
+       
+        <tr>
+            <td height="56" colspan="5" align="center"><a style="font-size: 20px;color: #808080;text-decoration: none;">新闻信息管理</a></td>
+        </tr>
+        <tr>
+            <td width="100" height="36" align="center" class="table_head">ID</td>
+            <td width="491" height="36" align="center" class="table_head">新闻标题</td>
+            <td width="176" height="36" align="center" class="table_head">作者</td>
+            <td width="125" height="36" align="center" class="table_head">发布时间</td>
+            <td width="108" height="36" align="center" class="table_head">操作</td>
+        </tr>
+        <volist name="list" id="vo">
+            <tr>
+                <td height="56" align="center">{$vo.news_id}</td>
+                <td height="56" align="center"><a href="__URL__/news_list/news_id/{$vo.news_id}" target="_blank">{$vo.news_title}</a></td>
+                <td height="56" align="center">{$vo.news_author}</td>
+                <td height="56" align="center">{$vo.news_date}</td>
+                <td height="56" align="center" ><a href="__URL__/update/news_id/{$vo.news_id}" >修改</a> <a  href="__URL__/delete/news_id/{$vo.news_id}" onclick="return confirm('您真的要删除该信息吗?')">删除</a></td>
+            </tr>
+        </volist>
+        <tr>
+            <td height="36" colspan="5" align="center"><a href="__URL__/insert">添加数据&gt;&gt;</a></td>
+        </tr>
+
+    </table>
+    <table style="margin-top:20px;" width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="pages" align="center">{$page}</td>
+        </tr>
+    </table>
+
+        <br>
+
+    </div>
+</body>
+</html>
