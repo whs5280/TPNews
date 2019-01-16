@@ -6,10 +6,15 @@
 3、修改Application\Common\Conf\config.php为你的数据库配置  
 4、访问 http://127.0.0.1/TPNews/index.php 即可，端口号默认80（若有改动，自行变化）  
   
-  带上部分截图
+  带上部分截图  
+  主页
 ![Image text](https://github.com/whs5280/img-folder/blob/master/TIM%E5%9B%BE%E7%89%8720190116135210.png)  
+  登陆  
 ![Image text](https://github.com/whs5280/img-folder/blob/master/TIM%E5%9B%BE%E7%89%8720190116135257.png)  
+  后台管理
 ![Image text](https://github.com/whs5280/img-folder/blob/master/TIM%E5%9B%BE%E7%89%8720190116135429.png)  
+  编辑  
 ![Image text](https://github.com/whs5280/img-folder/blob/master/TIM%E5%9B%BE%E7%89%8720190116135529.png)  
+  更换头像
 ![Image text](https://github.com/whs5280/img-folder/blob/master/TIM%E5%9B%BE%E7%89%8720190116135625.png)  
 
